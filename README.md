@@ -125,7 +125,7 @@ http://localhost:5500
 
 ---
 
-## Roteiro para testar
+## Roteiro para testar o site para Avaliação
 
 ### 1. Testar a listagem AJAX
 
