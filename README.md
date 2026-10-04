@@ -103,7 +103,7 @@ O projeto **não deve ser aberto diretamente com `file://`**, pois os arquivos J
 ### Opção 1 — Live Server
 
 1. Extraia o ZIP.
-2. Abra a pasta `CineTrack_Avaliacao_Entrega` no VS Code.
+2. Abra a pasta `CineTrack-2.0` no VS Code.
 3. Instale a extensão **Live Server**, caso ainda não tenha.
 4. Clique com o botão direito em `index.html`.
 5. Selecione **Open with Live Server**.
