@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CineTrack: uma seleção pessoal de filmes, com trailers, informações e notas pessoais.">
+  <meta name="theme-color" content="#0b0b10">
+  <title>CineTrack | Minha seleção de filmes</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Tipografia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <!-- Estilos próprios -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top cinema-nav" aria-label="Navegação principal">
+      <div class="container">
+        <a class="navbar-brand brand" href="#inicio" aria-label="CineTrack - voltar ao início">
+          <span class="brand-mark" aria-hidden="true"><i class="bi bi-film"></i></span>
+          <span>Cine<span>Track</span></span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#catalogo">Catálogo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <!-- Área 1: apresentação -->
+    <section id="inicio" class="hero-section" aria-labelledby="titulo-principal">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+
+      <div class="container position-relative">
+        <div class="row align-items-center g-5 py-5">
+          <div class="col-lg-7 py-lg-5">
+            <p class="eyebrow"><i class="bi bi-camera-reels-fill me-2" aria-hidden="true"></i>uma seleção pessoal de cinema</p>
+            <h1 id="titulo-principal" class="display-title">Filmes que eu <span>gostei</span>,<br>recomendo e revi.</h1>
+            <p class="hero-text">Bem-vindo ao CineTrack. Aqui estão alguns filmes que já fizeram parte da minha lista, reunindo gêneros diferentes, trailers e uma nota que representa apenas a minha opinião.</p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-cinema btn-lg" href="#catalogo"><i class="bi bi-play-fill me-1" aria-hidden="true"></i>Explorar filmes</a>
+              <a class="btn btn-outline-light btn-lg btn-ghost" href="#sobre">Conhecer o projeto</a>
+            </div>
+
+            <div class="hero-stats mt-5" aria-label="Resumo do catálogo">
+              <div><strong id="total-filmes">—</strong><span>filmes</span></div>
+              <div><strong id="total-generos">—</strong><span>categorias</span></div>
+              <div><strong id="maior-nota">—</strong><span>maior nota</span></div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 d-none d-lg-block">
+            <div class="hero-poster-wrap" aria-hidden="true">
+              <div class="film-strip film-strip-left"></div>
+              <div class="film-strip film-strip-right"></div>
+              <div class="hero-poster-card">
+                <div class="poster-shine"></div>
+                <img id="hero-poster" src="assets/imagens/12.jpg" alt="">
+                <div class="hero-poster-caption">
+                  <span>DESTAQUE DA SELEÇÃO</span>
+                  <strong id="hero-title">Back to the Future</strong>
+                  <small><i class="bi bi-star-fill" aria-hidden="true"></i> <span id="hero-rating">10</span>/10 — minha nota</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Área 2: catálogo -->
+    <section id="catalogo" class="catalog-section py-5" aria-labelledby="titulo-catalogo">
+      <div class="container py-lg-4">
+        <div class="section-heading mb-4">
+          <div>
+            <p class="eyebrow dark"><i class="bi bi-collection-play me-2" aria-hidden="true"></i>catálogo</p>
+            <h2 id="titulo-catalogo">Minha seleção</h2>
+            <p>Pesquise, filtre e escolha um filme para ver mais informações, assistir ao trailer e conhecer a minha nota.</p>
+          </div>
+          <span class="film-count" id="contador-resultados" aria-live="polite">Carregando...</span>
+        </div>
+
+        <form id="form-filtros" class="filter-panel p-3 p-lg-4 mb-5" aria-label="Busca e filtro do catálogo">
+          <div class="row g-3 align-items-end">
+            <div class="col-lg-7">
+              <label for="campo-busca" class="form-label">Buscar filme</label>
+              <div class="input-group input-group-lg search-box">
+                <span class="input-group-text" aria-hidden="true"><i class="bi bi-search"></i></span>
+                <input type="search" class="form-control" id="campo-busca" placeholder="Título, categoria, ano, país ou palavra da sinopse..." autocomplete="off" aria-describedby="ajuda-busca">
+                <button class="btn btn-clear" id="limpar-busca" type="button" aria-label="Limpar busca"><i class="bi bi-x-lg" aria-hidden="true"></i></button>
+              </div>
+              <div id="ajuda-busca" class="form-text">A busca atualiza os resultados sem recarregar a página.</div>
+            </div>
+
+            <div class="col-sm-7 col-lg-3">
+              <label for="filtro-categoria" class="form-label">Filtrar por categoria</label>
+              <select class="form-select form-select-lg" id="filtro-categoria">
+                <option value="">Todas as categorias</option>
+              </select>
+            </div>
+
+            <div class="col-sm-5 col-lg-2">
+              <button class="btn btn-dark btn-lg w-100 reset-btn" id="limpar-filtros" type="button"><i class="bi bi-arrow-counterclockwise me-1" aria-hidden="true"></i>Limpar</button>
+            </div>
+          </div>
+        </form>
+
+        <div id="estado-carregamento" class="interface-state" role="status" aria-live="polite">
+          <div class="spinner-border" role="status" aria-hidden="true"></div>
+          <p>Preparando a sessão...</p>
+        </div>
+
+        <div id="estado-erro" class="interface-state d-none" role="alert" aria-live="assertive">
+          <div class="state-icon"><i class="bi bi-cloud-slash" aria-hidden="true"></i></div>
+          <h3>Não foi possível carregar o catálogo</h3>
+          <p>O arquivo de dados não respondeu. Confira o servidor local e tente novamente.</p>
+          <button class="btn btn-cinema" id="tentar-novamente" type="button"><i class="bi bi-arrow-repeat me-1" aria-hidden="true"></i>Tentar novamente</button>
+        </div>
+
+        <div id="estado-vazio" class="interface-state d-none" role="status" aria-live="polite">
+          <div class="state-icon"><i class="bi bi-film" aria-hidden="true"></i></div>
+          <h3>Nenhum filme encontrado</h3>
+          <p>Tente outro nome ou escolha uma categoria diferente.</p>
+          <button class="btn btn-outline-dark" id="limpar-vazio" type="button">Limpar filtros</button>
+        </div>
+
+        <div id="catalogo-grid" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-4" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Área 3: informações sobre o projeto -->
+    <section id="sobre" class="about-section py-5" aria-labelledby="titulo-sobre">
+      <div class="container py-lg-4">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-5">
+            <p class="eyebrow">sobre o projeto</p>
+            <h2 id="titulo-sobre">Um catálogo com<br><span>gosto pessoal.</span></h2>
+            <p class="about-lead">O CineTrack reúne uma seleção pessoal de filmes que já assisti. A proposta é organizar essas escolhas em uma experiência simples, visual e interativa.</p>
+            <p class="about-note"><i class="bi bi-info-circle-fill" aria-hidden="true"></i>As notas são pessoais e não representam crítica profissional ou avaliação técnica.</p>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="accordion cinema-accordion" id="sobreAccordion">
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sobreUm" aria-expanded="true" aria-controls="sobreUm">
+                    <i class="bi bi-person-heart me-3" aria-hidden="true"></i>Qual é a ideia do CineTrack?
+                  </button>
+                </h3>
+                <div id="sobreUm" class="accordion-collapse collapse show" data-bs-parent="#sobreAccordion">
+                  <div class="accordion-body">Reunir uma seleção variada de filmes que já assisti, permitindo que cada pessoa encontre algo diferente para conhecer ou rever.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sobreDois" aria-expanded="false" aria-controls="sobreDois">
+                    <i class="bi bi-star me-3" aria-hidden="true"></i>Como funciona a minha nota?
+                  </button>
+                </h3>
+                <div id="sobreDois" class="accordion-collapse collapse" data-bs-parent="#sobreAccordion">
+                  <div class="accordion-body">A nota vai de 1 a 10 e representa somente o quanto eu gostei da experiência com aquele filme. Ela não pretende substituir críticas ou avaliações especializadas.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sobreTres" aria-expanded="false" aria-controls="sobreTres">
+                    <i class="bi bi-code-slash me-3" aria-hidden="true"></i>Como o catálogo funciona?
+                  </button>
+                </h3>
+                <div id="sobreTres" class="accordion-collapse collapse" data-bs-parent="#sobreAccordion">
+                  <div class="accordion-body">A página utiliza Fetch API para buscar os dados em arquivos JSON servidos por HTTP. A listagem e os detalhes usam fontes separadas, e a interface é montada dinamicamente com JavaScript.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sobreQuatro" aria-expanded="false" aria-controls="sobreQuatro">
+                    <i class="bi bi-phone me-3" aria-hidden="true"></i>O site funciona no celular?
+                  </button>
+                </h3>
+                <div id="sobreQuatro" class="accordion-collapse collapse" data-bs-parent="#sobreAccordion">
+                  <div class="accordion-body">Sim. O layout usa o sistema de grid do Bootstrap e estilos responsivos próprios para adaptar navegação, filtros, cards, modal e trailer a diferentes tamanhos de tela.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <p class="mb-0">© 2026 CineTrack · Projeto acadêmico de Yasmin Conceição de Lima Carvalho</p>
+      <a href="#inicio" class="back-top">Voltar ao topo <i class="bi bi-arrow-up" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+
+  <!-- Modal Bootstrap: os dados são preenchidos após uma nova requisição AJAX -->
+  <div class="modal fade cinema-modal" id="filmeModal" tabindex="-1" aria-labelledby="modalTitulo" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="btn-close btn-close-white modal-close" data-bs-dismiss="modal" aria-label="Fechar detalhes"></button>
+
+        <div id="modal-loading" class="modal-loading" role="status" aria-live="polite">
+          <div class="spinner-border text-light" role="status" aria-hidden="true"></div>
+          <p>Buscando detalhes do filme...</p>
+        </div>
+
+        <div id="modal-error" class="modal-error d-none" role="alert" aria-live="assertive">
+          <i class="bi bi-exclamation-circle" aria-hidden="true"></i>
+          <h3>Não foi possível carregar os detalhes.</h3>
+          <p>Verifique o servidor e tente novamente.</p>
+          <button class="btn btn-cinema" id="tentar-detalhes" type="button"><i class="bi bi-arrow-repeat me-1" aria-hidden="true"></i>Tentar novamente</button>
+        </div>
+
+        <div id="modal-content-data" class="d-none">
+          <div class="modal-backdrop-image">
+            <img id="modal-imagem" class="modal__img" src="" alt="">
+          </div>
+
+          <div class="modal-body cinema-modal-body">
+            <div class="row g-4">
+              <div class="col-lg-8">
+                <p class="modal-kicker">DETALHES DO FILME</p>
+                <h2 id="modalTitulo" class="modal__title">—</h2>
+                <div id="modal-generos" class="modal__genres mb-3" aria-label="Gêneros do filme"></div>
+                <p id="modalDescricao" class="modal__description">—</p>
+
+                <div class="trailer-heading">
+                  <i class="bi bi-play-circle-fill" aria-hidden="true"></i>
+                  <h3>Trailer</h3>
+                </div>
+                <div class="ratio ratio-16x9 trailer-frame">
+                  <iframe id="modalTrailer" src="" title="Trailer do filme" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <aside class="col-lg-4" aria-label="Informações complementares do filme">
+                <div class="rating-card">
+                  <span>MINHA NOTA</span>
+                  <strong id="modalNota">—</strong><small>/ 10</small>
+                  <div class="rating-stars" id="modalEstrelas" aria-label="Nota pessoal"></div>
+                  <p>Uma opinião pessoal, feita para compartilhar o meu gosto e não uma crítica técnica.</p>
+                </div>
+
+                <dl class="movie-facts">
+                  <div><dt><i class="bi bi-calendar3" aria-hidden="true"></i>Ano</dt><dd id="modalAno">—</dd></div>
+                  <div><dt><i class="bi bi-globe2" aria-hidden="true"></i>País</dt><dd id="modalPais">—</dd></div>
+                  <div><dt><i class="bi bi-tags" aria-hidden="true"></i>Categoria</dt><dd id="modalCategoria">—</dd></div>
+                </dl>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

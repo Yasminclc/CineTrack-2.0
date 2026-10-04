@@ -1,0 +1,593 @@
+[
+  {
+    "id": 1,
+    "title": "#Alive",
+    "category": "Ação",
+    "summary": "Um vírus terrível destrói a cidade, e um homem se tranca no seu apartamento para sobreviver. Desconectado do mundo, ele tenta desesperadamente encontrar uma saída.",
+    "image": "assets/imagens/1.jpg",
+    "rating": 7.0,
+    "year": "2020",
+    "country": "Coréia",
+    "genres": [
+      "Ação",
+      "Terror",
+      "Zumbi",
+      "Suspense"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "100 Coisas para Fazer antes de Virar Zumbi",
+    "category": "Comédia",
+    "summary": "Intimidado pelo chefe, ele era só mais um funcionário explorado. Mas tudo o que esse homem precisava para finalmente se sentir vivo era um ataque de zumbis.",
+    "image": "assets/imagens/2.jpg",
+    "rating": 6.0,
+    "year": "2023",
+    "country": "Japão",
+    "genres": [
+      "Comédia",
+      "Terror",
+      "Zumbi",
+      "Ação"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "A Freira",
+    "category": "Horror",
+    "summary": "Presa em um convento na Romênia, uma freira comete suicídio. Para investigar o caso, o Vaticano envia um padre assombrado e uma noviça prestes a se tornar freira. Arriscando suas vidas, a fé e até suas almas, os dois descobrem um segredo profano e se confrontam com uma força do mal que toma a forma de uma freira demoníaca e transforma o convento em um campo de batalha.",
+    "image": "assets/imagens/3.jpg",
+    "rating": 4.0,
+    "year": "2018",
+    "country": "EUA",
+    "genres": [
+      "Horror",
+      "Terror",
+      "Suspense"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "A Ligação",
+    "category": "Mistério",
+    "summary": "Conectada a outra mulher por telefone, mas separada dela no tempo, uma serial killer põe em risco o passado e a vida da sua interlocutora para mudar o próprio destino.",
+    "image": "assets/imagens/4.jpg",
+    "rating": 7.0,
+    "year": "2020",
+    "country": "Coréia",
+    "genres": [
+      "Mistério",
+      "Terror",
+      "Suspense"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Alladin Live Action",
+    "category": "Romance",
+    "summary": "Um jovem humilde descobre uma lâmpada mágica com um gênio que pode conceder desejos. Agora, o rapaz quer conquistar a moça por quem se apaixonou, mas o que ele não sabe é que a jovem é uma princesa que já está comprometida. Com a ajuda do gênio, ele tenta se passar por um príncipe para fisgar o amor da moça e a confiança de seu pai.",
+    "image": "assets/imagens/5.jpg",
+    "rating": 6.0,
+    "year": "2019",
+    "country": "EUA",
+    "genres": [
+      "Romance",
+      "Fantasia",
+      "Familia"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Alice no País das Maravilhas",
+    "category": "Aventura",
+    "summary": "Ainda garotinha, Alice Kingsleigh visitou um lugar mágico pela primeira vez e não tinha mais lembranças sobre o local a não ser em seus sonhos. Em uma festa da nobreza, a jovem vê um coelho branco. Alice o segue e cai em um buraco, indo parar em um mundo estranho: o País das Maravilhas. Lá, ela reencontra personagens que estavam guardados em sua memória através dos sonhos.",
+    "image": "assets/imagens/6.jpg",
+    "rating": 9.0,
+    "year": "2010",
+    "country": "EUA",
+    "genres": [
+      "Aventura",
+      "Fantasia",
+      "Familia"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Alice Através do Espelho",
+    "category": "Aventura",
+    "summary": "Alice retorna após uma longa viagem pelo mundo, e reencontra a mãe. No casarão de uma grande festa, percebe a presença de um espelho mágico. A jovem atravessa o objeto e retorna ao País das Maravilhas, onde descobre que o Chapeleiro Maluco e sua família correm risco de morte. Para salvar o amigo, Alice deve conversar com o Tempo para voltar às vésperas de um evento traumático e mudar seus destinos cruéis.",
+    "image": "assets/imagens/7.jpg",
+    "rating": 9.0,
+    "year": "2016",
+    "country": "EUA",
+    "genres": [
+      "Aventura",
+      "Fantasia",
+      "Familia"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Alita",
+    "category": "Ação",
+    "summary": "Abandonada em um ferro-velho de Iron City, a ciborgue Alita é encontrada pelo cientista Dyson Ido. Revitalizada, ela acorda sem memória e reconhecimento do mundo em que se encontra. Determinada a conhecer seu passado e explorar suas habilidades surpreendentes de luta, Alita se torna uma poderosa caçadora de recompensas, combatendo forças mortais.",
+    "image": "assets/imagens/8.jpg",
+    "rating": 7.0,
+    "year": "2019",
+    "country": "EUA",
+    "genres": [
+      "Ação",
+      "Fantasia",
+      "Ficção"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Ano Um",
+    "category": "Comédia",
+    "summary": "Zed é um caçador e seu amigo Oh tem como tarefa colher frutas no tempo das cavernas. Um dia, Zed resolve comer um fruto da árvore da sabedoria e acaba banido de sua tribo. Oh resolve acompanhá-lo e, juntos em uma jornada épica, eles encontram personagens marcantes como Caim e Adão, impedem Abraão de matar Isaac e chegam à cidade de Sodoma, onde descobrem que os integrantes de sua tribo são mantidos como escravos. Determinados a salvar as mulheres que amam, eles decidem arriscar suas vidas.",
+    "image": "assets/imagens/9.jpg",
+    "rating": 6.0,
+    "year": "2009",
+    "country": "EUA",
+    "genres": [
+      "Comédia"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "A Procura da Felicidade",
+    "category": "Drama",
+    "summary": "Chris enfrenta sérios problemas financeiros e sua esposa, Linda, decide partir. Agora solteiro, ele precisa cuidar de Christopher, seu filho de cinco anos. Chris tenta usar sua habilidade como vendedor para conseguir um emprego melhor, mas só consegue um estágio não-remunerado. Seus problemas financeiros não podem esperar uma promoção e eles acabam despejados. Chris e Christopher passam a dormir em abrigos ou onde quer que consigam um refúgio, mantendo a esperança de que dias melhores virão.",
+    "image": "assets/imagens/10.jpg",
+    "rating": 9.0,
+    "year": "2006",
+    "country": "EUA",
+    "genres": [
+      "Drama"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Baby Driver",
+    "category": "Ação",
+    "summary": "O talentoso motorista de fuga Baby confia nas batidas de sua própria trilha sonora para ser o melhor que existe. A música silencia um zumbido que o perturba desde um acidente na infância. Após conhecer a mulher dos seus sonhos, ele reconhece uma oportunidade de se livrar do estilo de vida questionável e recomeçar do zero. Obrigado a trabalhar para um chefão do crime, Baby lida com a música ao mesmo tempo em que um golpe fadado ao fracasso ameaça sua vida, seu amor e sua liberdade.",
+    "image": "assets/imagens/11.jpg",
+    "rating": 8.0,
+    "year": "2017",
+    "country": "Reino Unido",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Romance"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Back to the Future",
+    "category": "Comédia",
+    "summary": "O adolescente Marty McFly é transportado para o ano de 1955 quando uma experiência do excêntrico cientista Doc Brown é malsucedida. Marty viaja pelo tempo em um carro modificado e acaba conhecendo seus pais ainda jovens. O problema é que ele pode deixar de existir porque interferiu na rotina dos pais, que correm o risco de não se apaixonarem mais. Para complicar ainda mais a situação, Marty precisa voltar para casa a tempo de salvar o cientista.",
+    "image": "assets/imagens/12.jpg",
+    "rating": 10.0,
+    "year": "1985",
+    "country": "EUA",
+    "genres": [
+      "Comédia",
+      "Ficção",
+      "Aventura"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Back to the Future Part II",
+    "category": "Fantasia",
+    "summary": "Marty McFly e o cientista \"Doc\" Brown viajam de 1985 a 2015 para evitar que o filho de Marty estrague o futuro da família McFly. Porém, seu arqui-inimigo Biff Tannen rouba a máquina do tempo de Doc, o DeLorean, e a usa para alterar a história em seu benefício, forçando a dupla a retornar a 1955 para restaurar a linha do tempo.",
+    "image": "assets/imagens/13.jpg",
+    "rating": 10.0,
+    "year": "1989",
+    "country": "EUA",
+    "genres": [
+      "Fantasia",
+      "Ficção",
+      "Aventura"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Bad Boys: Até o Fim",
+    "category": "Comédia",
+    "summary": "Os brincalhões polícias de Miami, Mike Lowrey e Marcus Burnett, embarcam em uma perigosa missão para limpar o nome do falecido capitão da polícia.",
+    "image": "assets/imagens/14.jpg",
+    "rating": 7.0,
+    "year": "2024",
+    "country": "EUA",
+    "genres": [
+      "Comédia",
+      "Crime",
+      "Ação"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Barbie",
+    "category": "Comédia",
+    "summary": "Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
+    "image": "assets/imagens/15.jpg",
+    "rating": 8.0,
+    "year": "2023",
+    "country": "EUA",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Família"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Bela e a Fera Live Action",
+    "category": "Romance",
+    "summary": "Conta a história de Bela, uma jovem que se torna prisioneira de uma Fera em troca da liberdade do pai. No castelo, ela conhece objetos mágicos e descobre que a Fera é um príncipe que precisa de amor.",
+    "image": "assets/imagens/16.jpg",
+    "rating": 6.0,
+    "year": "2017",
+    "country": "EUA",
+    "genres": [
+      "Romance",
+      "Musical",
+      "Família"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Bee Movie",
+    "category": "Animação",
+    "summary": "A recém-formada abelha Barry acha a vida de trabalhar com mel desinteressante. Ele voa fora da colmeia pela primeira vez e conversa com um humano, quebrando uma primordial regra de sua espécie. Barry descobre que humanos têm roubado e comido mel há séculos e decide processar a humanidade.",
+    "image": "assets/imagens/17.jpg",
+    "rating": 5.0,
+    "year": "2007",
+    "country": "EUA",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Família"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Bird Box",
+    "category": "Drama",
+    "summary": "Entidades misteriosas invadem a Terra com sua terrível presença. Aqueles que as veem, se matam instantaneamente. O mundo entra em colapso, mas uma mãe luta para encontrar um lugar seguro para viver com seus filhos.",
+    "image": "assets/imagens/18.jpg",
+    "rating": 4.0,
+    "year": "2018",
+    "country": "EUA",
+    "genres": [
+      "Drama",
+      "Ficção",
+      "Suspense"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Bolt",
+    "category": "Animação",
+    "summary": "Bolt é um cachorro que estrela uma série de TV, na qual possui superpoderes. Entretanto, Bolt não sabe que o mundo que o cerca é falso, acreditando que realmente possui dons especiais. Quando, nas gravações de um dos episódios, Penny é sequestrada pelo Dr. Calico, o vilão da série, ele consegue fugir do furgão em que vive e parte atrás dela. Ao lidar com a vida real é que, aos poucos, ele toma consciência de que não tem superpoderes e é um cachorro normal.",
+    "image": "assets/imagens/19.jpg",
+    "rating": 8.0,
+    "year": "2008",
+    "country": "EUA",
+    "genres": [
+      "Animação",
+      "Fantasia",
+      "Família"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Bumblebee",
+    "category": "Ação",
+    "summary": "Refugiado em um ferro-velho na Califórnia, Bumblebee, machucado e sem condição de uso, é encontrado e consertado pela jovem Charlie. Quando Bee ganha vida, a garota percebe que seu novo amigo é bem mais do que um simples automóvel.",
+    "image": "assets/imagens/20.jpg",
+    "rating": 7.0,
+    "year": "2018",
+    "country": "EUA",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Ficção"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Chappie",
+    "category": "Aventura",
+    "summary": "Em um futuro próximo, policiais humanos são substituídos por robôs ultrarresistentes, dotados de inteligência artificial. Deon, o cientista criador das máquinas, rouba um modelo defeituoso e consegue fazer com que ele tenha a capacidade de sentir e pensar por si próprio. Porém, as autoridades começam a ver Chappie como um perigo para a humanidade e ordem e vão fazer de tudo para garantir que ele seja o último de sua espécie.",
+    "image": "assets/imagens/21.jpg",
+    "rating": 7.0,
+    "year": "2015",
+    "country": "EUA",
+    "genres": [
+      "Aventura",
+      "Ação",
+      "Fantasia"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Click",
+    "category": "Comédia",
+    "summary": "Um arquiteto casado e com filhos está cada vez mais frustrado por passar a maior parte de seu tempo trabalhando. Um dia, ele encontra um inventor excêntrico que lhe dá um controle remoto universal, com capacidade de acelerar o tempo. No início, ele usa o aparelho para acelerar qualquer momento tedioso, mas se dá conta de que está acelerando o tempo demais e deixando de viver preciosos momentos em família. Desesperado, ele procura o inventor para ajudá-lo a reverter o que fez.",
+    "image": "assets/imagens/22.jpg",
+    "rating": 5.0,
+    "year": "2006",
+    "country": "EUA",
+    "genres": [
+      "Comédia",
+      "Fantasia",
+      "Família"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Código Da Vinci",
+    "category": "Mistério",
+    "summary": "Um assassinato no museu do Louvre em Paris e pistas enigmáticas em alguns dos quadros mais famosos de Leonardo DaVinci levam à descoberta de um mistério religioso. Por mais de dois mil anos, uma sociedade secreta guarda informações que, se descobertas, poderiam comprometer o cristianismo. Robert Langdon, um professor especialista em simbologia e história, se envolve na investigação.",
+    "image": "assets/imagens/23.jpg",
+    "rating": 9.0,
+    "year": "2006",
+    "country": "EUA",
+    "genres": [
+      "Mistério",
+      "Drama"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Como eu era antes de você",
+    "category": "Romance",
+    "summary": "Will Traynor, de 35 anos, é inteligente, rico e mal-humorado. Preso a uma cadeira de rodas depois de um acidente de moto, o antes ativo e esportivo Will desconta toda a sua amargura em quem estiver por perto e planeja dar um fim ao seu sofrimento. O que Will não sabe é que Lou está prestes a trazer cor a sua vida.",
+    "image": "assets/imagens/24.jpg",
+    "rating": 7.0,
+    "year": "2016",
+    "country": "EUA",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Como se Fosse a Primeira Vez",
+    "category": "Romance",
+    "summary": "Henry Roth é um veterinário paquerador que vive no Havaí e famoso pelo grande número de turistas que conquista. Seu novo alvo é Lucy Whitmore, que mora no local e por quem Henry se apaixona perdidamente. No entanto, Lucy sofre de falta de memória de curto prazo e se esquece rapidamente de fatos que acabaram de acontecer. Assim, Henry é obrigado a conquistá-la, dia após dia, para ficar ao seu lado.",
+    "image": "assets/imagens/25.jpg",
+    "rating": 7.0,
+    "year": "2004",
+    "country": "EUA",
+    "genres": [
+      "Romance",
+      "Comédia"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Como Treinar seu Dragão",
+    "category": "Animação",
+    "summary": "Soluço é um jovem viking que não tem capacidade para lutar contra os dragões, como é a tradição local. Sua vida muda quando ele ajuda um dragão que lhe mostra toda a verdade. Juntos, eles tentam provar que dragões e humanos podem ser amigos.",
+    "image": "assets/imagens/26.jpg",
+    "rating": 7.0,
+    "year": "2010",
+    "country": "EUA",
+    "genres": [
+      "Animação",
+      "Fantasia"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Coraline",
+    "category": "Animação",
+    "summary": "Enquanto explora sua nova casa à noite, a pequena Coraline descobre uma porta secreta que contém um mundo parecido com o dela, porém melhor em muitas maneiras. Todos têm botões no lugar dos olhos, os pais são carinhosos e os sonhos de Coraline viram realidade por lá. Ela se encanta com essa descoberta, mas logo percebe que segredos estranhos estão em ação: uma outra mãe e o resto de sua família tentam mantê-la eternamente nesse mundo paralelo.",
+    "image": "assets/imagens/27.jpg",
+    "rating": 9.0,
+    "year": "2009",
+    "country": "EUA",
+    "genres": [
+      "Animação",
+      "Fantasia",
+      "Stop Motion"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Corra",
+    "category": "Terror",
+    "summary": "Chris é um jovem fotógrafo negro que está prestes a conhecer os pais de Rose, sua namorada caucasiana. Na luxuosa propriedade dos pais dela, Chris percebe que a família esconde algo muito perturbador.",
+    "image": "assets/imagens/28.jpg",
+    "rating": 9.0,
+    "year": "2017",
+    "country": "EUA",
+    "genres": [
+      "Terror",
+      "Suspense",
+      "Crime"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Cruella",
+    "category": "Comédia",
+    "summary": "Inteligente, criativa e determinada, Estella quer fazer um nome para si através de seus designs e acaba chamando a atenção da Baronesa Von Hellman. Entretanto, o relacionamento delas desencadeia um curso de eventos e revelações que fazem com que Estella abrace seu lado rebelde e se torne a Cruella, uma pessoa má, elegante e voltada para a vingança.",
+    "image": "assets/imagens/29.jpg",
+    "rating": 9.0,
+    "year": "2021",
+    "country": "EUA",
+    "genres": [
+      "Comédia",
+      "Crime"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "O Curioso Caso de Benjamin Button",
+    "category": "Fantasia",
+    "summary": "Benjamin Button é um homem que nasce idoso e rejuvenesce à medida que o tempo passa. Doze anos depois de seu nascimento, ele conhece Daisy, uma criança que entra e sai de sua vida enquanto cresce para ser dançarina. Embora tenha todos os tipos de aventuras incomuns, sua relação com Daisy o faz acreditar que os dois se encontrarão no momento certo da vida.",
+    "image": "assets/imagens/30.jpg",
+    "rating": 8.0,
+    "year": "2008",
+    "country": "EUA",
+    "genres": [
+      "Fantasia",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Deadpool",
+    "category": "Ação",
+    "summary": "Wade Wilson é um ex-agente especial que passou a trabalhar como mercenário. Seu mundo é destruído quando um cientista maligno o tortura e o desfigura completamente. O experimento brutal transforma Wade em Deadpool, que ganha poderes especiais de cura e uma força aprimorada. Com a ajuda de aliados poderosos e um senso de humor mais desbocado e cínico do que nunca, o irreverente anti-herói usa habilidades e métodos violentos para se vingar do homem que quase acabou com a sua vida.",
+    "image": "assets/imagens/31.jpg",
+    "rating": 9.0,
+    "year": "2016",
+    "country": "EUA",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Herói"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Deadpool & Wolverine",
+    "category": "Ação",
+    "summary": "Wolverine está se recuperando quando cruza seu caminho com Deadpool. Juntos, eles formam uma equipe e enfrentam um inimigo em comum.",
+    "image": "assets/imagens/32.jpg",
+    "rating": 9.0,
+    "year": "2024",
+    "country": "EUA",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Herói"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Deep",
+    "category": "Suspense",
+    "summary": "Quatro estudantes de medicina que sofrem de insônia participam de um experimento que sai do controle. Agora, eles precisam escapar antes que seja tarde demais.",
+    "image": "assets/imagens/33.jpg",
+    "rating": 5.0,
+    "year": "2021",
+    "country": "Tailândia",
+    "genres": [
+      "Suspense",
+      "Ficção"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Despedida em Grande Estilo",
+    "category": "Comédia",
+    "summary": "Desesperados para pagar as contas e corresponder às expectativas de seus amados, os amigos Willie, Joe e Albert arriscam tudo em um lance ousado para roubar o banco que desapareceu com o dinheiro deles.",
+    "image": "assets/imagens/34.jpg",
+    "rating": 7.0,
+    "year": "2017",
+    "country": "EUA",
+    "genres": [
+      "Comédia",
+      "Crime"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Detona Ralph",
+    "category": "Animação",
+    "summary": "Ralph está cansado de ser desprezado no seu próprio jogo de fliperama. Para ganhar a atenção do herói Felix e todos os outros personagens, o vilão tem um plano e sai em busca de uma medalha, com a intenção de provar o seu valor.",
+    "image": "assets/imagens/35.jpg",
+    "rating": 8.0,
+    "year": "2012",
+    "country": "EUA",
+    "genres": [
+      "Animação",
+      "Comédia",
+      "Familia"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Divertidamente",
+    "category": "Animação",
+    "summary": "Com a mudança para uma nova cidade, as emoções de Riley, que tem apenas 11 anos de idade, ficam extremamente agitadas. Uma confusão na sala de controle do seu cérebro deixa a Alegria e a Tristeza de fora, afetando a vida de Riley radicalmente.",
+    "image": "assets/imagens/36.jpg",
+    "rating": 8.0,
+    "year": "2015",
+    "country": "EUA",
+    "genres": [
+      "Animação",
+      "Drama",
+      "Familia"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Divertidamente 2",
+    "category": "Animação",
+    "summary": "Com um salto temporal, Riley se encontra mais velha, passando pela tão temida adolescência. Junto com o amadurecimento, a sala de controle também está passando por uma adaptação para dar lugar a algo totalmente inesperado: novas emoções. As já conhecidas, Alegria, Raiva, Medo, Nojinho e Tristeza não têm certeza de como se sentir quando novos inquilinos chegam ao local.",
+    "image": "assets/imagens/37.jpg",
+    "rating": 8.0,
+    "year": "2024",
+    "country": "EUA",
+    "genres": [
+      "Animação",
+      "Drama",
+      "Familia"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Doutor Estranho no Multiverso da Loucura",
+    "category": "Fantasia",
+    "summary": "O aguardado filme trata da jornada do Doutor Estranho rumo ao desconhecido. Além de receber ajuda de novos aliados místicos e outros já conhecidos do público, o personagem atravessa as realidades alternativas incompreensíveis e perigosas do Multiverso para enfrentar um novo e misterioso adversário.",
+    "image": "assets/imagens/38.jpg",
+    "rating": 6.0,
+    "year": "2022",
+    "country": "EUA",
+    "genres": [
+      "Fantasia",
+      "Ação",
+      "Comédia"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Don’t Look Up",
+    "category": "Ficção",
+    "summary": "Dois astrônomos medíocres descobrem que em poucos meses um meteorito destruirá o planeta Terra. A partir desse momento, eles devem alertar a humanidade por meio da imprensa sobre o perigo que se aproxima.",
+    "image": "assets/imagens/39.jpg",
+    "rating": 8.0,
+    "year": "2021",
+    "country": "EUA",
+    "genres": [
+      "Ficção",
+      "Drama",
+      "Comédia"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Drowning Love",
+    "category": "Ficção",
+    "summary": "Quando a família da modelo adolescente Natsume Mochizuki se muda para a cidade natal do pai dela a fim de assumir a pousada do avô doente, ela é forçada a abandonar sua próspera carreira em Tóquio.",
+    "image": "assets/imagens/40.jpg",
+    "rating": 5.0,
+    "year": "2016",
+    "country": "Japão",
+    "genres": [
+      "Ficção",
+      "Drama",
+      "Comédia"
+    ]
+  }
+]
